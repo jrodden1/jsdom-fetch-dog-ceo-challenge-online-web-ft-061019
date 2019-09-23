@@ -14,13 +14,16 @@
 
     <hr>
     <label for="select-breed">Filter Breeds That Start with:</label>
-    <select id="breed-dropdown" name="select-breed">
-      <option value="a">a</option>
-      <option value="b">b</option>
-      <option value="c">c</option>
-      <option value="d">d</option>
-    </select>
-
+    <form id="filter-breed">
+      <select id="breed-dropdown" name="select-breed">
+        <option value="a">a</option>
+        <option value="b">b</option>
+        <option value="c">c</option>
+        <option value="d">d</option>
+      </select>
+      <input type="submit" value="Submit">
+      <input id="reset-btn" type="button" value="Reset">
+    </form>
     <ul id="dog-breeds">
 
     </ul>
